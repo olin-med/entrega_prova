@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/cli/cli.egg-info
+writing ../../build/cli/cli.egg-info/PKG-INFO
+writing dependency_links to ../../build/cli/cli.egg-info/dependency_links.txt
+writing entry points to ../../build/cli/cli.egg-info/entry_points.txt
+writing requirements to ../../build/cli/cli.egg-info/requires.txt
+writing top-level names to ../../build/cli/cli.egg-info/top_level.txt
+writing manifest file '../../build/cli/cli.egg-info/SOURCES.txt'
+reading manifest file '../../build/cli/cli.egg-info/SOURCES.txt'
+writing manifest file '../../build/cli/cli.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/olin/github/workspace_prova/build/cli/build
+creating /home/olin/github/workspace_prova/build/cli/build/lib
+creating /home/olin/github/workspace_prova/build/cli/build/lib/cli
+copying cli/publisher.py -> /home/olin/github/workspace_prova/build/cli/build/lib/cli
+copying cli/__init__.py -> /home/olin/github/workspace_prova/build/cli/build/lib/cli
+running install
+running install_lib
+creating /home/olin/github/workspace_prova/install/cli/lib/python3.10/site-packages/cli
+copying /home/olin/github/workspace_prova/build/cli/build/lib/cli/publisher.py -> /home/olin/github/workspace_prova/install/cli/lib/python3.10/site-packages/cli
+copying /home/olin/github/workspace_prova/build/cli/build/lib/cli/__init__.py -> /home/olin/github/workspace_prova/install/cli/lib/python3.10/site-packages/cli
+byte-compiling /home/olin/github/workspace_prova/install/cli/lib/python3.10/site-packages/cli/publisher.py to publisher.cpython-310.pyc
+byte-compiling /home/olin/github/workspace_prova/install/cli/lib/python3.10/site-packages/cli/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/olin/github/workspace_prova/install/cli/share
+creating /home/olin/github/workspace_prova/install/cli/share/ament_index
+creating /home/olin/github/workspace_prova/install/cli/share/ament_index/resource_index
+creating /home/olin/github/workspace_prova/install/cli/share/ament_index/resource_index/packages
+copying resource/cli -> /home/olin/github/workspace_prova/install/cli/share/ament_index/resource_index/packages
+creating /home/olin/github/workspace_prova/install/cli/share/cli
+copying package.xml -> /home/olin/github/workspace_prova/install/cli/share/cli
+running install_egg_info
+Copying ../../build/cli/cli.egg-info to /home/olin/github/workspace_prova/install/cli/lib/python3.10/site-packages/cli-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/olin/github/workspace_prova/build/cli/install.log'

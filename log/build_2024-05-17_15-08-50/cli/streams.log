@@ -1,0 +1,21 @@
+[0.483s] Invoking command in '/home/olin/github/workspace_prova/src/cli': PYTHONPATH=/home/olin/github/workspace_prova/build/cli/prefix_override:/home/olin/github/workspace_prova/install/cli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cli build --build-base /home/olin/github/workspace_prova/build/cli/build install --record /home/olin/github/workspace_prova/build/cli/install.log --single-version-externally-managed install_data
+[0.711s] running egg_info
+[0.711s] writing ../../build/cli/cli.egg-info/PKG-INFO
+[0.711s] writing dependency_links to ../../build/cli/cli.egg-info/dependency_links.txt
+[0.711s] writing entry points to ../../build/cli/cli.egg-info/entry_points.txt
+[0.711s] writing requirements to ../../build/cli/cli.egg-info/requires.txt
+[0.712s] writing top-level names to ../../build/cli/cli.egg-info/top_level.txt
+[0.713s] reading manifest file '../../build/cli/cli.egg-info/SOURCES.txt'
+[0.713s] writing manifest file '../../build/cli/cli.egg-info/SOURCES.txt'
+[0.713s] running build
+[0.713s] running build_py
+[0.713s] running install
+[0.714s] running install_lib
+[0.715s] running install_data
+[0.715s] copying package.xml -> /home/olin/github/workspace_prova/install/cli/share/cli
+[0.715s] running install_egg_info
+[0.716s] removing '/home/olin/github/workspace_prova/install/cli/lib/python3.10/site-packages/cli-0.0.0-py3.10.egg-info' (and everything under it)
+[0.716s] Copying ../../build/cli/cli.egg-info to /home/olin/github/workspace_prova/install/cli/lib/python3.10/site-packages/cli-0.0.0-py3.10.egg-info
+[0.716s] running install_scripts
+[0.732s] writing list of installed files to '/home/olin/github/workspace_prova/build/cli/install.log'
+[0.751s] Invoked command in '/home/olin/github/workspace_prova/src/cli' returned '0': PYTHONPATH=/home/olin/github/workspace_prova/build/cli/prefix_override:/home/olin/github/workspace_prova/install/cli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cli build --build-base /home/olin/github/workspace_prova/build/cli/build install --record /home/olin/github/workspace_prova/build/cli/install.log --single-version-externally-managed install_data

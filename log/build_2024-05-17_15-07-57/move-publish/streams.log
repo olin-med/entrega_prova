@@ -1,0 +1,20 @@
+[0.783s] Invoking command in '/home/olin/github/workspace_prova/src/move-publish': PYTHONPATH=/home/olin/github/workspace_prova/build/move-publish/prefix_override:/home/olin/github/workspace_prova/install/move-publish/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/move-publish build --build-base /home/olin/github/workspace_prova/build/move-publish/build install --record /home/olin/github/workspace_prova/build/move-publish/install.log --single-version-externally-managed install_data
+[0.948s] running egg_info
+[0.949s] writing ../../build/move-publish/move_publish.egg-info/PKG-INFO
+[0.949s] writing dependency_links to ../../build/move-publish/move_publish.egg-info/dependency_links.txt
+[0.949s] writing entry points to ../../build/move-publish/move_publish.egg-info/entry_points.txt
+[0.949s] writing requirements to ../../build/move-publish/move_publish.egg-info/requires.txt
+[0.949s] writing top-level names to ../../build/move-publish/move_publish.egg-info/top_level.txt
+[0.951s] reading manifest file '../../build/move-publish/move_publish.egg-info/SOURCES.txt'
+[0.951s] writing manifest file '../../build/move-publish/move_publish.egg-info/SOURCES.txt'
+[0.951s] running build
+[0.951s] running build_py
+[0.951s] running install
+[0.952s] running install_lib
+[0.952s] running install_data
+[0.953s] running install_egg_info
+[0.954s] removing '/home/olin/github/workspace_prova/install/move-publish/lib/python3.10/site-packages/move_publish-0.0.0-py3.10.egg-info' (and everything under it)
+[0.954s] Copying ../../build/move-publish/move_publish.egg-info to /home/olin/github/workspace_prova/install/move-publish/lib/python3.10/site-packages/move_publish-0.0.0-py3.10.egg-info
+[0.955s] running install_scripts
+[0.970s] writing list of installed files to '/home/olin/github/workspace_prova/build/move-publish/install.log'
+[0.990s] Invoked command in '/home/olin/github/workspace_prova/src/move-publish' returned '0': PYTHONPATH=/home/olin/github/workspace_prova/build/move-publish/prefix_override:/home/olin/github/workspace_prova/install/move-publish/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/move-publish build --build-base /home/olin/github/workspace_prova/build/move-publish/build install --record /home/olin/github/workspace_prova/build/move-publish/install.log --single-version-externally-managed install_data

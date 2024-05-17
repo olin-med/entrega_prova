@@ -1,0 +1,334 @@
+[0.063s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.063s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x77cb08334cd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77cb084358d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77cb084358d0>>)
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.161s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/olin/github/workspace_prova'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/cli) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/cli) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/cli) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/cli) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/cli) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/cli) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/cli) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/cli) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/cli) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'src/cli': Error(s) in package 'src/cli/package.xml':
+The manifest contains invalid XML:
+syntax error: line 1, column 0
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/cli) by extensions ['cmake', 'python']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/cli) by extension 'cmake'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/cli) by extension 'python'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/cli' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/cli) by extensions ['python_setup_py']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/cli) by extension 'python_setup_py'
+[0.317s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cli' with type 'python' and name 'cli'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/move-publish) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/move-publish) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/move-publish) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/move-publish) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/move-publish) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/move-publish) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/move-publish) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/move-publish) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/move-publish) by extension 'ros'
+[0.318s] DEBUG:colcon.colcon_core.package_identification:Package 'src/move-publish' with type 'ros.ament_python' and name 'move-publish'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/ola_mundo) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/ola_mundo) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ola_mundo) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ola_mundo) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ola_mundo) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ola_mundo) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ola_mundo) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ola_mundo) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ola_mundo) by extension 'ros'
+[0.319s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ola_mundo' with type 'ros.ament_python' and name 'ola_mundo'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ros'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['cmake', 'python']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'cmake'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['python_setup_py']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python_setup_py'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) ignored
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) ignored
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) ignored
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ros'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.342s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/olin/github/PonderadaRosTurtlesim/install
+[0.342s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/olin/github/workspace_prova/install
+[0.344s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 384 installed packages in /opt/ros/humble
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.372s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'turtlesim' is in: /home/olin/github/PonderadaRosTurtlesim/install/turtlesim, /home/olin/github/workspace_prova/install/turtlesim, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding turtlesim
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'cli' build argument 'cmake_args' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'cli' build argument 'cmake_target' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'cli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'cli' build argument 'cmake_clean_cache' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'cli' build argument 'cmake_clean_first' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'cli' build argument 'cmake_force_configure' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'cli' build argument 'ament_cmake_args' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'cli' build argument 'catkin_cmake_args' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'cli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.372s] DEBUG:colcon.colcon_core.verb:Building package 'cli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olin/github/workspace_prova/build/cli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olin/github/workspace_prova/install/cli', 'merge_install': False, 'path': '/home/olin/github/workspace_prova/src/cli', 'symlink_install': False, 'test_result_base': None}
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'move-publish' build argument 'cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'move-publish' build argument 'cmake_target' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'move-publish' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'move-publish' build argument 'cmake_clean_cache' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'move-publish' build argument 'cmake_clean_first' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'move-publish' build argument 'cmake_force_configure' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'move-publish' build argument 'ament_cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'move-publish' build argument 'catkin_cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'move-publish' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.373s] DEBUG:colcon.colcon_core.verb:Building package 'move-publish' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olin/github/workspace_prova/build/move-publish', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olin/github/workspace_prova/install/move-publish', 'merge_install': False, 'path': '/home/olin/github/workspace_prova/src/move-publish', 'symlink_install': False, 'test_result_base': None}
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'ola_mundo' build argument 'cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'ola_mundo' build argument 'cmake_target' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'ola_mundo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'ola_mundo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'ola_mundo' build argument 'cmake_clean_first' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'ola_mundo' build argument 'cmake_force_configure' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'ola_mundo' build argument 'ament_cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'ola_mundo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'ola_mundo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.373s] DEBUG:colcon.colcon_core.verb:Building package 'ola_mundo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olin/github/workspace_prova/build/ola_mundo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olin/github/workspace_prova/install/ola_mundo', 'merge_install': False, 'path': '/home/olin/github/workspace_prova/src/ola_mundo', 'symlink_install': False, 'test_result_base': None}
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.373s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olin/github/workspace_prova/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olin/github/workspace_prova/install/turtlesim', 'merge_install': False, 'path': '/home/olin/github/workspace_prova/src/ros_tutorials/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[0.373s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.374s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.374s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/olin/github/workspace_prova/src/cli'
+[0.375s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.376s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.376s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.378s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/olin/github/workspace_prova/src/move-publish' with build type 'ament_python'
+[0.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('move-publish', 'ament_prefix_path')
+[0.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olin/github/workspace_prova/install/move-publish/share/move-publish/hook/ament_prefix_path.ps1'
+[0.379s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olin/github/workspace_prova/install/move-publish/share/move-publish/hook/ament_prefix_path.dsv'
+[0.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olin/github/workspace_prova/install/move-publish/share/move-publish/hook/ament_prefix_path.sh'
+[0.379s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.380s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.382s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/olin/github/workspace_prova/src/ola_mundo' with build type 'ament_python'
+[0.382s] Level 1:colcon.colcon_core.shell:create_environment_hook('ola_mundo', 'ament_prefix_path')
+[0.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olin/github/workspace_prova/install/ola_mundo/share/ola_mundo/hook/ament_prefix_path.ps1'
+[0.382s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olin/github/workspace_prova/install/ola_mundo/share/ola_mundo/hook/ament_prefix_path.dsv'
+[0.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olin/github/workspace_prova/install/ola_mundo/share/ola_mundo/hook/ament_prefix_path.sh'
+[0.383s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.383s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.385s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/olin/github/workspace_prova/src/ros_tutorials/turtlesim' with build type 'ament_cmake'
+[0.385s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/olin/github/workspace_prova/src/ros_tutorials/turtlesim'
+[0.385s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.386s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.694s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/olin/github/workspace_prova/src/move-publish'
+[0.694s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.694s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.849s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/olin/github/workspace_prova/src/ola_mundo'
+[0.849s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.849s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olin/github/workspace_prova/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olin/github/PonderadaRosTurtlesim/install/ola_mundo:/home/olin/github/PonderadaRosTurtlesim/install/draw_circle:/home/olin/github/workspace_prova/install/ola_mundo:/opt/ros/humble /usr/bin/cmake --build /home/olin/github/workspace_prova/build/turtlesim -- -j8 -l8
+[0.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olin/github/workspace_prova/src/cli': PYTHONPATH=/home/olin/github/workspace_prova/build/cli/prefix_override:/home/olin/github/workspace_prova/install/cli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cli build --build-base /home/olin/github/workspace_prova/build/cli/build install --record /home/olin/github/workspace_prova/build/cli/install.log --single-version-externally-managed install_data
+[1.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olin/github/workspace_prova/src/move-publish': PYTHONPATH=/home/olin/github/workspace_prova/build/move-publish/prefix_override:/home/olin/github/workspace_prova/install/move-publish/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/move-publish build --build-base /home/olin/github/workspace_prova/build/move-publish/build install --record /home/olin/github/workspace_prova/build/move-publish/install.log --single-version-externally-managed install_data
+[1.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olin/github/workspace_prova/src/ola_mundo': PYTHONPATH=/home/olin/github/workspace_prova/build/ola_mundo/prefix_override:/home/olin/github/workspace_prova/install/ola_mundo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ola_mundo build --build-base /home/olin/github/workspace_prova/build/ola_mundo/build install --record /home/olin/github/workspace_prova/build/ola_mundo/install.log --single-version-externally-managed install_data
+[1.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olin/github/workspace_prova/src/cli' returned '0': PYTHONPATH=/home/olin/github/workspace_prova/build/cli/prefix_override:/home/olin/github/workspace_prova/install/cli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cli build --build-base /home/olin/github/workspace_prova/build/cli/build install --record /home/olin/github/workspace_prova/build/cli/install.log --single-version-externally-managed install_data
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/cli' for CMake module files
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/cli' for CMake config files
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/cli/lib'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/cli/bin'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/cli/lib/pkgconfig/cli.pc'
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/cli/lib/python3.10/site-packages'
+[1.184s] Level 1:colcon.colcon_core.shell:create_environment_hook('cli', 'pythonpath')
+[1.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olin/github/workspace_prova/install/cli/share/cli/hook/pythonpath.ps1'
+[1.184s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olin/github/workspace_prova/install/cli/share/cli/hook/pythonpath.dsv'
+[1.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olin/github/workspace_prova/install/cli/share/cli/hook/pythonpath.sh'
+[1.185s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/cli/bin'
+[1.185s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cli)
+[1.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/olin/github/workspace_prova/install/cli/share/cli/package.ps1'
+[1.186s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/olin/github/workspace_prova/install/cli/share/cli/package.dsv'
+[1.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/olin/github/workspace_prova/install/cli/share/cli/package.sh'
+[1.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/olin/github/workspace_prova/install/cli/share/cli/package.bash'
+[1.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/olin/github/workspace_prova/install/cli/share/cli/package.zsh'
+[1.189s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/olin/github/workspace_prova/install/cli/share/colcon-core/packages/cli)
+[1.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olin/github/workspace_prova/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olin/github/PonderadaRosTurtlesim/install/ola_mundo:/home/olin/github/PonderadaRosTurtlesim/install/draw_circle:/home/olin/github/workspace_prova/install/ola_mundo:/opt/ros/humble /usr/bin/cmake --build /home/olin/github/workspace_prova/build/turtlesim -- -j8 -l8
+[1.364s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/ola_mundo' for CMake module files
+[1.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olin/github/workspace_prova/src/ola_mundo' returned '0': PYTHONPATH=/home/olin/github/workspace_prova/build/ola_mundo/prefix_override:/home/olin/github/workspace_prova/install/ola_mundo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ola_mundo build --build-base /home/olin/github/workspace_prova/build/ola_mundo/build install --record /home/olin/github/workspace_prova/build/ola_mundo/install.log --single-version-externally-managed install_data
+[1.365s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/ola_mundo' for CMake config files
+[1.365s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/ola_mundo/lib'
+[1.365s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/ola_mundo/bin'
+[1.365s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/ola_mundo/lib/pkgconfig/ola_mundo.pc'
+[1.365s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/ola_mundo/lib/python3.10/site-packages'
+[1.366s] Level 1:colcon.colcon_core.shell:create_environment_hook('ola_mundo', 'pythonpath')
+[1.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olin/github/workspace_prova/install/ola_mundo/share/ola_mundo/hook/pythonpath.ps1'
+[1.366s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olin/github/workspace_prova/install/ola_mundo/share/ola_mundo/hook/pythonpath.dsv'
+[1.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olin/github/workspace_prova/install/ola_mundo/share/ola_mundo/hook/pythonpath.sh'
+[1.367s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/ola_mundo/bin'
+[1.367s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ola_mundo)
+[1.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/olin/github/workspace_prova/install/ola_mundo/share/ola_mundo/package.ps1'
+[1.367s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/olin/github/workspace_prova/install/ola_mundo/share/ola_mundo/package.dsv'
+[1.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/olin/github/workspace_prova/install/ola_mundo/share/ola_mundo/package.sh'
+[1.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/olin/github/workspace_prova/install/ola_mundo/share/ola_mundo/package.bash'
+[1.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/olin/github/workspace_prova/install/ola_mundo/share/ola_mundo/package.zsh'
+[1.368s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/olin/github/workspace_prova/install/ola_mundo/share/colcon-core/packages/ola_mundo)
+[1.369s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/move-publish' for CMake module files
+[1.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olin/github/workspace_prova/src/move-publish' returned '0': PYTHONPATH=/home/olin/github/workspace_prova/build/move-publish/prefix_override:/home/olin/github/workspace_prova/install/move-publish/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/move-publish build --build-base /home/olin/github/workspace_prova/build/move-publish/build install --record /home/olin/github/workspace_prova/build/move-publish/install.log --single-version-externally-managed install_data
+[1.369s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/move-publish' for CMake config files
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/move-publish/lib'
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/move-publish/bin'
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/move-publish/lib/pkgconfig/move-publish.pc'
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/move-publish/lib/python3.10/site-packages'
+[1.370s] Level 1:colcon.colcon_core.shell:create_environment_hook('move-publish', 'pythonpath')
+[1.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olin/github/workspace_prova/install/move-publish/share/move-publish/hook/pythonpath.ps1'
+[1.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olin/github/workspace_prova/install/move-publish/share/move-publish/hook/pythonpath.dsv'
+[1.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olin/github/workspace_prova/install/move-publish/share/move-publish/hook/pythonpath.sh'
+[1.371s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/move-publish/bin'
+[1.371s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(move-publish)
+[1.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/olin/github/workspace_prova/install/move-publish/share/move-publish/package.ps1'
+[1.372s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/olin/github/workspace_prova/install/move-publish/share/move-publish/package.dsv'
+[1.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/olin/github/workspace_prova/install/move-publish/share/move-publish/package.sh'
+[1.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/olin/github/workspace_prova/install/move-publish/share/move-publish/package.bash'
+[1.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/olin/github/workspace_prova/install/move-publish/share/move-publish/package.zsh'
+[1.372s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/olin/github/workspace_prova/install/move-publish/share/colcon-core/packages/move-publish)
+[1.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olin/github/workspace_prova/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olin/github/PonderadaRosTurtlesim/install/ola_mundo:/home/olin/github/PonderadaRosTurtlesim/install/draw_circle:/home/olin/github/workspace_prova/install/ola_mundo:/opt/ros/humble /usr/bin/cmake --install /home/olin/github/workspace_prova/build/turtlesim
+[1.419s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[1.419s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/turtlesim' for CMake module files
+[1.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olin/github/workspace_prova/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olin/github/PonderadaRosTurtlesim/install/ola_mundo:/home/olin/github/PonderadaRosTurtlesim/install/draw_circle:/home/olin/github/workspace_prova/install/ola_mundo:/opt/ros/humble /usr/bin/cmake --install /home/olin/github/workspace_prova/build/turtlesim
+[1.420s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/turtlesim' for CMake config files
+[1.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[1.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olin/github/workspace_prova/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[1.421s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olin/github/workspace_prova/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[1.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olin/github/workspace_prova/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[1.422s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/turtlesim/lib'
+[1.422s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[1.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olin/github/workspace_prova/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[1.422s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olin/github/workspace_prova/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[1.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olin/github/workspace_prova/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[1.423s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/turtlesim/bin'
+[1.423s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[1.423s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/turtlesim/lib/python3.10/site-packages'
+[1.423s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/turtlesim/bin'
+[1.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/olin/github/workspace_prova/install/turtlesim/share/turtlesim/package.ps1'
+[1.423s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/olin/github/workspace_prova/install/turtlesim/share/turtlesim/package.dsv'
+[1.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/olin/github/workspace_prova/install/turtlesim/share/turtlesim/package.sh'
+[1.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/olin/github/workspace_prova/install/turtlesim/share/turtlesim/package.bash'
+[1.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/olin/github/workspace_prova/install/turtlesim/share/turtlesim/package.zsh'
+[1.424s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/olin/github/workspace_prova/install/turtlesim/share/colcon-core/packages/turtlesim)
+[1.572s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[1.572s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/turtlesim' for CMake module files
+[1.572s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/turtlesim' for CMake config files
+[1.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[1.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olin/github/workspace_prova/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[1.573s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olin/github/workspace_prova/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[1.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olin/github/workspace_prova/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[1.574s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/turtlesim/lib'
+[1.574s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[1.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olin/github/workspace_prova/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[1.574s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olin/github/workspace_prova/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[1.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olin/github/workspace_prova/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[1.575s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/turtlesim/bin'
+[1.575s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[1.575s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/turtlesim/lib/python3.10/site-packages'
+[1.575s] Level 1:colcon.colcon_core.environment:checking '/home/olin/github/workspace_prova/install/turtlesim/bin'
+[1.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/olin/github/workspace_prova/install/turtlesim/share/turtlesim/package.ps1'
+[1.576s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/olin/github/workspace_prova/install/turtlesim/share/turtlesim/package.dsv'
+[1.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/olin/github/workspace_prova/install/turtlesim/share/turtlesim/package.sh'
+[1.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/olin/github/workspace_prova/install/turtlesim/share/turtlesim/package.bash'
+[1.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/olin/github/workspace_prova/install/turtlesim/share/turtlesim/package.zsh'
+[1.578s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/olin/github/workspace_prova/install/turtlesim/share/colcon-core/packages/turtlesim)
+[1.578s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.578s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.578s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.578s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.584s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.584s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.584s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.601s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.602s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/olin/github/workspace_prova/install/local_setup.ps1'
+[1.602s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/olin/github/workspace_prova/install/_local_setup_util_ps1.py'
+[1.603s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/olin/github/workspace_prova/install/setup.ps1'
+[1.604s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/olin/github/workspace_prova/install/local_setup.sh'
+[1.604s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/olin/github/workspace_prova/install/_local_setup_util_sh.py'
+[1.604s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/olin/github/workspace_prova/install/setup.sh'
+[1.605s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/olin/github/workspace_prova/install/local_setup.bash'
+[1.605s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/olin/github/workspace_prova/install/setup.bash'
+[1.606s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/olin/github/workspace_prova/install/local_setup.zsh'
+[1.606s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/olin/github/workspace_prova/install/setup.zsh'

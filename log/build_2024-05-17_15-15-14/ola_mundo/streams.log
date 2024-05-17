@@ -1,0 +1,21 @@
+[0.864s] Invoking command in '/home/olin/github/workspace_prova/src/ola_mundo': PYTHONPATH=/home/olin/github/workspace_prova/build/ola_mundo/prefix_override:/home/olin/github/workspace_prova/install/ola_mundo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ola_mundo build --build-base /home/olin/github/workspace_prova/build/ola_mundo/build install --record /home/olin/github/workspace_prova/build/ola_mundo/install.log --single-version-externally-managed install_data
+[1.037s] running egg_info
+[1.037s] writing ../../build/ola_mundo/ola_mundo.egg-info/PKG-INFO
+[1.037s] writing dependency_links to ../../build/ola_mundo/ola_mundo.egg-info/dependency_links.txt
+[1.037s] writing entry points to ../../build/ola_mundo/ola_mundo.egg-info/entry_points.txt
+[1.038s] writing requirements to ../../build/ola_mundo/ola_mundo.egg-info/requires.txt
+[1.038s] writing top-level names to ../../build/ola_mundo/ola_mundo.egg-info/top_level.txt
+[1.039s] reading manifest file '../../build/ola_mundo/ola_mundo.egg-info/SOURCES.txt'
+[1.039s] writing manifest file '../../build/ola_mundo/ola_mundo.egg-info/SOURCES.txt'
+[1.039s] running build
+[1.039s] running build_py
+[1.039s] running install
+[1.040s] running install_lib
+[1.040s] running install_data
+[1.040s] running install_egg_info
+[1.041s] removing '/home/olin/github/workspace_prova/install/ola_mundo/lib/python3.10/site-packages/ola_mundo-0.0.0-py3.10.egg-info' (and everything under it)
+[1.042s] Copying ../../build/ola_mundo/ola_mundo.egg-info to /home/olin/github/workspace_prova/install/ola_mundo/lib/python3.10/site-packages/ola_mundo-0.0.0-py3.10.egg-info
+[1.042s] running install_scripts
+[1.057s] Installing ola script to /home/olin/github/workspace_prova/install/ola_mundo/lib/ola_mundo
+[1.057s] writing list of installed files to '/home/olin/github/workspace_prova/build/ola_mundo/install.log'
+[1.074s] Invoked command in '/home/olin/github/workspace_prova/src/ola_mundo' returned '0': PYTHONPATH=/home/olin/github/workspace_prova/build/ola_mundo/prefix_override:/home/olin/github/workspace_prova/install/ola_mundo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ola_mundo build --build-base /home/olin/github/workspace_prova/build/ola_mundo/build install --record /home/olin/github/workspace_prova/build/ola_mundo/install.log --single-version-externally-managed install_data

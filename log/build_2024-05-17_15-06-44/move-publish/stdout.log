@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/move-publish/move_publish.egg-info
+writing ../../build/move-publish/move_publish.egg-info/PKG-INFO
+writing dependency_links to ../../build/move-publish/move_publish.egg-info/dependency_links.txt
+writing entry points to ../../build/move-publish/move_publish.egg-info/entry_points.txt
+writing requirements to ../../build/move-publish/move_publish.egg-info/requires.txt
+writing top-level names to ../../build/move-publish/move_publish.egg-info/top_level.txt
+writing manifest file '../../build/move-publish/move_publish.egg-info/SOURCES.txt'
+reading manifest file '../../build/move-publish/move_publish.egg-info/SOURCES.txt'
+writing manifest file '../../build/move-publish/move_publish.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/olin/github/workspace_prova/build/move-publish/build
+creating /home/olin/github/workspace_prova/build/move-publish/build/lib
+creating /home/olin/github/workspace_prova/build/move-publish/build/lib/move-publish
+copying move-publish/__init__.py -> /home/olin/github/workspace_prova/build/move-publish/build/lib/move-publish
+running install
+running install_lib
+creating /home/olin/github/workspace_prova/install/move-publish/lib/python3.10/site-packages/move-publish
+copying /home/olin/github/workspace_prova/build/move-publish/build/lib/move-publish/__init__.py -> /home/olin/github/workspace_prova/install/move-publish/lib/python3.10/site-packages/move-publish
+byte-compiling /home/olin/github/workspace_prova/install/move-publish/lib/python3.10/site-packages/move-publish/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/olin/github/workspace_prova/install/move-publish/share/ament_index
+creating /home/olin/github/workspace_prova/install/move-publish/share/ament_index/resource_index
+creating /home/olin/github/workspace_prova/install/move-publish/share/ament_index/resource_index/packages
+copying resource/move-publish -> /home/olin/github/workspace_prova/install/move-publish/share/ament_index/resource_index/packages
+copying package.xml -> /home/olin/github/workspace_prova/install/move-publish/share/move-publish
+running install_egg_info
+Copying ../../build/move-publish/move_publish.egg-info to /home/olin/github/workspace_prova/install/move-publish/lib/python3.10/site-packages/move_publish-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/olin/github/workspace_prova/build/move-publish/install.log'

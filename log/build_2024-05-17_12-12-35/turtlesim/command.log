@@ -1,0 +1,6 @@
+Invoking command in '/home/olin/github/workspace_prova/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/olin/github/workspace_prova/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/olin/github/workspace_prova/install/turtlesim
+Invoked command in '/home/olin/github/workspace_prova/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/olin/github/workspace_prova/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/olin/github/workspace_prova/install/turtlesim
+Invoking command in '/home/olin/github/workspace_prova/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/olin/github/workspace_prova/build/turtlesim -- -j8 -l8
+Invoked command in '/home/olin/github/workspace_prova/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/olin/github/workspace_prova/build/turtlesim -- -j8 -l8
+Invoking command in '/home/olin/github/workspace_prova/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/olin/github/workspace_prova/build/turtlesim
+Invoked command in '/home/olin/github/workspace_prova/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/olin/github/workspace_prova/build/turtlesim
